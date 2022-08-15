@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto con JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="cajas">
+            <section class="form box">
+                <form id="formulario">
+                <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+                <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5" cols="50"></textarea>
+                <div class="button-container">
+                    <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+                    <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+                </div>
+                </form>
+            </section>
+            
+            <section class="msg box">
+                <label for="mensaje-texto">Mensaje encriptado:</label>
+                <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
+                <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Hecho por <span>Martín Eduardo Torres Gomez</span> | &copy; 2022</p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
